@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import React from "react";
-import { Label } from "../../src/components/ui/label";
-import { Input } from "../../src/components/ui/input";
+import { Label } from "../components/ui/label";
+import { Input } from "../components/ui/input";
 import { cn } from "../lib/utils";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -40,7 +40,7 @@ export function SignupFormDemo() {
 
   async function handleClick() {
     navigate("/result");
-
+    console.log(symptons);
     const result = await axios.post(
       " https://baclkend-health.onrender.com/api/v1/information",
       {
