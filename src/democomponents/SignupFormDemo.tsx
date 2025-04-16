@@ -98,7 +98,7 @@ export function SignupFormDemo() {
             onChange={(e) => {
               setAge(e.target.value);
             }}
-            placeholder="How tall are you?"
+            placeholder="How Old are you?"
             type="email"
           />
         </LabelInputContainer>
@@ -110,7 +110,7 @@ export function SignupFormDemo() {
             onChange={(e) => {
               setHeight(e.target.value);
             }}
-            placeholder="How Old are you?"
+            placeholder="How Tall are you?"
             type="email"
           />
         </LabelInputContainer>
